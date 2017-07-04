@@ -12,6 +12,7 @@ create table AGENDA_PERSON (
     NAME varchar(255),
     EMAIL varchar(255),
     PICTURE_FILE varchar(255),
+    PHONE varchar(20),
     --
     primary key (ID)
 )^

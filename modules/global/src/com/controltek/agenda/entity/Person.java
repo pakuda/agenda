@@ -21,6 +21,18 @@ public class Person extends StandardEntity {
     @Column(name = "PICTURE_FILE")
     protected String pictureFile;
 
+    @Column(name = "PHONE", length = 20)
+    protected String phone;
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+
     public void setName(String name) {
         this.name = name;
     }
