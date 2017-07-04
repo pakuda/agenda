@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-agenda"
+          insertBefore="administration">
+        <item icon="font-icon:USER_SECRET"
+              screen="agenda$Person.browse"/>
+    </menu>
+</menu-config>
