@@ -6,6 +6,7 @@ import javax.persistence.Table;
 import javax.persistence.Column;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.chile.core.annotations.NamePattern;
+import org.hibernate.validator.constraints.Email;
 
 @NamePattern("%s %s|name,email")
 @Table(name = "AGENDA_PERSON")
@@ -16,6 +17,7 @@ public class Person extends StandardEntity {
     @Column(name = "NAME")
     protected String name;
 
+    @Email
     @Column(name = "EMAIL")
     protected String email;
 
