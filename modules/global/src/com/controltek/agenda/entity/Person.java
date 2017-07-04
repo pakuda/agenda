@@ -1,4 +1,4 @@
-#un comentario
+/*un comentario*/
 package com.controltek.agenda.entity;
 
 import javax.persistence.Entity;
